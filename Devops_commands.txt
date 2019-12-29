@@ -1,0 +1,5 @@
+Jenkins password path   /var/lib/jenkins/secrets/initialAdminPassword
+0502fd5faaaa49e4b9cd768a41d36f59
+
+To start slave agent from Local windows system --> cmd--> execute below command
+java -jar agent.jar -jnlpUrl http://15.206.172.231:8080/computer/winslave/slave-agent.jnlp -secret 7cb0a9aa0c57d827b43c7d6f8c07acec4a6ac4ad950fecc1a1c5736bc09c1a1d -workDir "C:\jenkinsdir"
